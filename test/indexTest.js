@@ -31,5 +31,6 @@ describe("dinner", () => {
     expect(newdinner.soup).to.equal('consomme')
     expect(newdinner.entree).to.equal('filet mignon')
     expect(newdinner._dessert).to.equal('cheesecake')
+    // dessert is intended to be a private property by including an underscore (_) at the beginning
   })
 })
